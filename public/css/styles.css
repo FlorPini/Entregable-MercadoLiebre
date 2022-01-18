@@ -68,12 +68,14 @@ div.burger-menu{
 }
 
 div.burger-menu i{
+    display: block;
     background-color: #0044AA;
     border-radius: 5px;
     color: #FFF;
     font-size: 20px;
+    text-align: center;
     height: 40px;
-    margin: 10px 0px 20px 0px;
+    margin: auto;
     padding: 10px;
     width: 40px;
 }
@@ -142,6 +144,24 @@ article div.main-article{
     width: 100%;
     border-top: 1px solid #ebebeb;
     padding: 15px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #fff;    
+    margin: 10px 0px;
+}
+.main-footer{
+    color:#666;
+}
+.main-footer i {
+    color: #1259c3;
+    font-size: 2em;
+    margin: 10px;
+}
+.seccion-footer p, h3{
+    font-size: 12px;
 }
 
 @media (min-width: 361px){
