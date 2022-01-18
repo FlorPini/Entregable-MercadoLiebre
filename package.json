@@ -1,13 +1,17 @@
 {
-  "name": "mercado_liebre",
+  "name": "html_css",
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
   "scripts": {
-    "serve": "nodemon server.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "save-dev": "^0.0.1-security"
+  },
   "devDependencies": {
     "nodemon": "^2.0.15"
   }
