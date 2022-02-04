@@ -352,7 +352,7 @@ footer {
 }
 @media (min-width: 1200px){
     .main-section-article{
-        flex-basis: 22%;
+        flex-basis: 21%;
     }
     .main-footer{
         display: flex;
